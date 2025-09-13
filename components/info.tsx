@@ -5,7 +5,7 @@ export const Info = () => {
     <div className="flex flex-col items-center gap-6">
       <Image
         src="/avatar.jpg"
-        alt="avatar"
+        alt="Ditin Agrawal - Software Engineer Profile Picture"
         width={120}
         height={120}
         priority

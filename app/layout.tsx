@@ -1,3 +1,4 @@
+import { StructuredData } from "@/components/structured-data";
 import type { Metadata } from "next";
 import { Asap } from "next/font/google";
 import "./globals.css";
@@ -8,9 +9,9 @@ const asap = Asap({
 });
 
 export const metadata: Metadata = {
-  title: "Ditin Agrawal - Software Engineer",
+  title: "Ditin Agrawal - Software Engineer | Full Stack Developer",
   description:
-    "Ditin Agrawal is a passionate software engineer / Full Stack Developer with a knack for building web applications and exploring new technologies.",
+    "Ditin Agrawal is a passionate software engineer and full stack developer specializing in web applications. Available for work. Connect via portfolio, resume, and social links.",
   keywords: [
     "ditin agrawal",
     "software engineer",
@@ -20,10 +21,28 @@ export const metadata: Metadata = {
     "link tree",
     "resume",
     "portfolio template",
+    "javascript",
+    "typescript",
+    "react",
+    "next.js",
+    "node.js",
+    "available for work",
+    "freelance developer",
   ],
-  authors: [{ name: "Ditin Agrawal" }],
+  authors: [{ name: "Ditin Agrawal", url: "https://ditin.in" }],
   creator: "Ditin Agrawal",
   publisher: "Ditin Agrawal",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -33,30 +52,34 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  manifest: "/manifest.json",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://ditin.in",
     siteName: "Ditin Agrawal - Software Engineer",
-    title: "Ditin Agrawal - Software Engineer",
+    title: "Ditin Agrawal - Software Engineer | Full Stack Developer",
     description:
-      "Ditin Agrawal is a passionate software engineer / Full Stack Developer with a knack for building web applications and exploring new technologies.",
+      "Ditin Agrawal is a passionate software engineer and full stack developer specializing in web applications. Available for work. Connect via portfolio, resume, and social links.",
     images: [
       {
         url: "/og.webp",
         width: 1200,
         height: 630,
-        alt: "Ditin Agrawal",
+        alt: "Ditin Agrawal - Software Engineer Profile",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ditin Agrawal - Software Engineer",
+    site: "@ditinagrawal",
+    creator: "@ditinagrawal",
+    title: "Ditin Agrawal - Software Engineer | Full Stack Developer",
     description:
-      "Ditin Agrawal is a passionate software engineer / Full Stack Developer with a knack for building web applications and exploring new technologies.",
+      "Ditin Agrawal is a passionate software engineer and full stack developer specializing in web applications. Available for work.",
     images: ["/og.webp"],
   },
+  category: "technology",
 };
 
 export default function RootLayout({
@@ -66,6 +89,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <StructuredData />
+      </head>
       <body className={`${asap.className} antialiased`}>{children}</body>
     </html>
   );
