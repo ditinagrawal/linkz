@@ -8,13 +8,13 @@ import { cn } from "@/lib/utils";
 
 const Home = () => {
   return (
-    <main className="relative h-screen flex flex-col items-center">
+    <main className="relative flex h-screen flex-col items-center">
       <DotPattern
         className={cn(
-          "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)] -z-10"
+          "-z-10 [mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
         )}
       />
-      <div className="py-12 px:8 space-y-8">
+      <div className="px:8 space-y-8 py-12">
         <Info />
         <Socials />
         <section className="text-center">
@@ -22,7 +22,7 @@ const Home = () => {
             I&apos;m currently building{" "}
             <Link
               href="https://ping.ditin.in"
-              className="font-bold underline underline-offset-4 ms-1 tracking-wide"
+              className="ms-1 font-bold tracking-wide underline underline-offset-4"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="View Ping project - currently building"
@@ -35,12 +35,12 @@ const Home = () => {
         <section className="text-center font-semibold">
           <p>I&apos;m available for work</p>
           <div
-            className="flex items-center justify-center mt-2"
+            className="mt-2 flex items-center justify-center"
             role="status"
             aria-label="Available for work status"
           >
-            <div className="size-4 bg-green-200 rounded-full flex items-center justify-center">
-              <div className="size-2 bg-green-500 rounded-full" />
+            <div className="flex size-4 items-center justify-center rounded-full bg-green-200">
+              <div className="size-2 rounded-full bg-green-500" />
             </div>
           </div>
         </section>

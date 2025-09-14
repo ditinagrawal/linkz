@@ -10,7 +10,7 @@ export const Links = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="bg-green-200 text-green-900 px-4 py-2 rounded-lg hover:shadow-[8px_8px_var(--color-green-800)] transition w-full hover:border-1 border-green-400 shadow-[4px_4px_var(--color-green-800)] cursor-pointer flex items-center justify-center gap-2">
+        <button className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border-green-400 bg-green-200 px-4 py-2 text-green-900 shadow-[4px_4px_var(--color-green-800)] transition hover:border-1 hover:shadow-[8px_8px_var(--color-green-800)]">
           portfolio <IconArrowUpRight className="size-4" />
         </button>
       </Link>
@@ -19,7 +19,7 @@ export const Links = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="bg-purple-200 text-purple-900 px-4 py-2 rounded-lg hover:shadow-[8px_8px_var(--color-purple-800)] transition w-full hover:border-1 border-purple-400 shadow-[4px_4px_var(--color-purple-800)] cursor-pointer flex items-center justify-center gap-2">
+        <button className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border-purple-400 bg-purple-200 px-4 py-2 text-purple-900 shadow-[4px_4px_var(--color-purple-800)] transition hover:border-1 hover:shadow-[8px_8px_var(--color-purple-800)]">
           resume <IconArrowUpRight className="size-4" />
         </button>
       </Link>
@@ -28,7 +28,7 @@ export const Links = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="bg-yellow-200 text-yellow-900 px-4 py-2 rounded-lg hover:shadow-[8px_8px_var(--color-yellow-800)] transition w-full hover:border-1 border-yellow-400 shadow-[4px_4px_var(--color-yellow-800)] cursor-pointer flex items-center justify-center gap-2">
+        <button className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border-yellow-400 bg-yellow-200 px-4 py-2 text-yellow-900 shadow-[4px_4px_var(--color-yellow-800)] transition hover:border-1 hover:shadow-[8px_8px_var(--color-yellow-800)]">
           source code <IconArrowUpRight className="size-4" />
         </button>
       </Link>

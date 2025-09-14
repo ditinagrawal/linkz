@@ -9,10 +9,10 @@ export const Info = () => {
         width={120}
         height={120}
         priority
-        className="rounded-3xl shadow-[4px_4px_#000000] hover:shadow-[10px_10px_#000000] transition ease-in-out"
+        className="rounded-3xl shadow-[4px_4px_#000000] transition ease-in-out hover:shadow-[10px_10px_#000000]"
       />
-      <div className="text-center space-y-1">
-        <h1 className="text-4xl font-bold text-neutral-950 text-shadow-neutral-800 drop-shadow">
+      <div className="space-y-1 text-center">
+        <h1 className="text-4xl font-bold text-neutral-950 drop-shadow text-shadow-neutral-800">
           Ditin Agrawal
         </h1>
         <p className="text-neutral-600">Software Engineer</p>

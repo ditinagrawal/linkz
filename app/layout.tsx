@@ -1,6 +1,7 @@
-import { StructuredData } from "@/components/structured-data";
 import type { Metadata } from "next";
 import { Asap } from "next/font/google";
+
+import { StructuredData } from "@/components/structured-data";
 import "./globals.css";
 
 const asap = Asap({

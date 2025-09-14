@@ -10,10 +10,10 @@ import {
 
 export const Socials = () => {
   return (
-    <div className="flex gap-4 flex-wrap">
+    <div className="flex flex-wrap gap-4">
       <Link
         href="https://github.com/ditinagrawal"
-        className="p-2 border-1 border-neutral-400 rounded-lg hover:shadow-[8px_8px_var(--color-neutral-800)] transition bg-white"
+        className="rounded-lg border-1 border-neutral-400 bg-white p-2 transition hover:shadow-[8px_8px_var(--color-neutral-800)]"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -21,7 +21,7 @@ export const Socials = () => {
       </Link>
       <Link
         href="https://x.com/ditinagrawal"
-        className="p-2 border-1 border-gray-400 rounded-lg hover:shadow-[8px_8px_var(--color-gray-600)] transition bg-white"
+        className="rounded-lg border-1 border-gray-400 bg-white p-2 transition hover:shadow-[8px_8px_var(--color-gray-600)]"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -29,7 +29,7 @@ export const Socials = () => {
       </Link>
       <Link
         href="https://linkedin.com/in/ditinagrawal"
-        className="p-2 border-1 border-blue-300 rounded-lg hover:shadow-[8px_8px_var(--color-blue-600)] transition bg-white"
+        className="rounded-lg border-1 border-blue-300 bg-white p-2 transition hover:shadow-[8px_8px_var(--color-blue-600)]"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -37,7 +37,7 @@ export const Socials = () => {
       </Link>
       <Link
         href="mailto:ditin.agrawal05@gmail.com"
-        className="p-2 border-1 border-neutral-400 rounded-lg hover:shadow-[8px_8px_var(--color-neutral-800)] transition bg-white"
+        className="rounded-lg border-1 border-neutral-400 bg-white p-2 transition hover:shadow-[8px_8px_var(--color-neutral-800)]"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -45,7 +45,7 @@ export const Socials = () => {
       </Link>
       <Link
         href="https://youtube.com/@ditinagrawal"
-        className="p-2 border-1 border-rose-300 rounded-lg hover:shadow-[8px_8px_var(--color-rose-600)] transition bg-white"
+        className="rounded-lg border-1 border-rose-300 bg-white p-2 transition hover:shadow-[8px_8px_var(--color-rose-600)]"
         target="_blank"
         rel="noopener noreferrer"
       >
