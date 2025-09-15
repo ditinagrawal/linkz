@@ -15,6 +15,15 @@ export const Links = () => {
         </button>
       </Link>
       <Link
+        href="https://portfolio.ditin.in/blog"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border-sky-400 bg-sky-200 px-4 py-2 text-sky-900 shadow-[4px_4px_var(--color-sky-800)] transition hover:border-1 hover:shadow-[8px_8px_var(--color-sky-800)]">
+          blog <IconArrowUpRight className="size-4" />
+        </button>
+      </Link>
+      <Link
         href="https://docs.google.com/document/d/1R749yAfoSVe-3szgcmggzlKvj6oj-k1uxhGI84usCPs/edit?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
