@@ -6,6 +6,15 @@ export const Links = () => {
   return (
     <div className="flex flex-col gap-4">
       <Link
+        href="https://fastui.ditin.in"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border-indigo-400 bg-indigo-200 px-4 py-2 text-indigo-900 shadow-[4px_4px_var(--color-indigo-800)] transition hover:border-1 hover:shadow-[8px_8px_var(--color-indigo-800)]">
+          fastui <IconArrowUpRight className="size-4" />
+        </button>
+      </Link>
+      <Link
         href="https://portfolio.ditin.in"
         target="_blank"
         rel="noopener noreferrer"
